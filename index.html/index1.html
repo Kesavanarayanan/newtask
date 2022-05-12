@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="task.css">
+<style> 
+
+body{
+ color: black;
+}
+
+p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 55px;  
+    margin-top: -50px;              
+}
+
+h1{
+ font-size: 100px;
+ text-align: center;
+ color:white;
+ margin-top: 20px;
+}
+
+#myDIV {
+  width: 300px;
+  height: 300px;
+  background-color: coral;
+  color: white;
+}
+</style>
+</head>
+<body style="background-color: black;">
+
+<h1>TASK</h1>
+<p>Cloud View</p>
+
+<div class="flex-container">
+<div class="container1">
+  <button class="box" id='lightblue' onclick="myFunction1()">Hello</button>
+  <button class="box" id='green' onclick="myFunction2()">Hello</button>
+  <button class="box" id='Pink' onclick="myFunction3()">Hello</button>
+</div>
+
+<div id="myDIV">
+</div>
+
+<div class="container2">
+<button class="box" id='orange' onclick="myFunction4()">Hello</button>
+<button class="box" id='brown' onclick="myFunction5()">Hello</button>
+<button class="box" id='Red' onclick="myFunction6()">Hello</button>
+</div>
+
+</div>
+
+
+
+<script>
+function myFunction1() {
+  document.getElementById("myDIV").style.backgroundColor = "lightblue";
+}
+function myFunction2() {
+  document.getElementById("myDIV").style.backgroundColor = "green";
+}
+function myFunction3() {
+  document.getElementById("myDIV").style.backgroundColor = "pink";
+}
+function myFunction4() {
+  document.getElementById("myDIV").style.backgroundColor = "orange";
+}
+function myFunction5() {
+  document.getElementById("myDIV").style.backgroundColor = "brown";
+}
+function myFunction6() {
+  document.getElementById("myDIV").style.backgroundColor = "Red";
+}
+</script>
+
+</body>
+</html>
